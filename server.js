@@ -8,7 +8,7 @@ const socketio = require('socket.io')
 
 const server = http.createServer(app)
 
-const PORT=https://web--chat--app.herokuapp.com/ || 3000;
+// const PORT=https://web--chat--app.herokuapp.com/ || 3000;
 
 const io = socketio(server)
 let users = {
